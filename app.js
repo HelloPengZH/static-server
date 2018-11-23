@@ -5,7 +5,7 @@ var proxy = require('http-proxy-middleware');
 var serveIndex = require('serve-index')
 
 //此处设置静态文件的路径
-const basePath = path.resolve('..')
+const basePath = path.resolve('./')
 
 
 app.use(express.static(basePath));
