@@ -6,7 +6,6 @@
 
 ```
 # 进入到需要提供静态服务的文件夹
-git clone https://github.com/kunzhijia/static-server.git
 cd static-server
 npm install
 npm start //服务器器支持热加载，修改app.js 不需要重启服务器
